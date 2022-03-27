@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main_graph"
+    app:startDestination="@id/singInFragment">
+
+    <fragment
+        android:id="@+id/singInFragment"
+        android:name="com.a5k.caffelite.view.SingInFragment"
+        android:label="fragment_sing_in"
+        tools:layout="@layout/fragment_sing_in" />
+    <fragment
+        android:id="@+id/singOutFragment"
+        android:name="com.a5k.caffelite.view.SingOutFragment"
+        android:label="fragment_sing_out"
+        tools:layout="@layout/fragment_sing_out" />
+
+</navigation>

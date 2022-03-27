@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="text_toRegistration_margin">20dp</dimen>
+    <dimen name="boxCornerRadius">30dp</dimen>
+    <dimen name="boxStrokeWidth">2dp</dimen>
+    <dimen name="layout_marginBottom">6dp</dimen>
+    <dimen name="padding">15dp</dimen>
+</resources>

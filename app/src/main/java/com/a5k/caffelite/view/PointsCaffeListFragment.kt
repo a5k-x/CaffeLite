@@ -2,7 +2,6 @@ package com.a5k.caffelite.view
 
 import android.accounts.AccountManager
 import android.os.Bundle
-import android.util.Log
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
@@ -77,7 +76,7 @@ class PointsCaffeListFragment : Fragment() {
         })
     }
 companion object{
-    private const val NAME_TITLE = "Авторизация"
+    private const val NAME_TITLE = "Ближайшие кофейни"
     private const val ERROR = "Ошибка загрузки"
     private const val ERROR_401 = "401"
     private const val ERROR_Unauthorized = "Unauthorized"

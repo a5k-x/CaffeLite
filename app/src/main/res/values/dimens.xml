@@ -5,4 +5,14 @@
     <dimen name="boxStrokeWidth">2dp</dimen>
     <dimen name="layout_marginBottom">6dp</dimen>
     <dimen name="padding">15dp</dimen>
+    <dimen name="toolbar_elevation">10dp</dimen>
+    <dimen name="CardView_caffe_margin">10dp</dimen>
+    <dimen name="CardView_caffe_corner_radius">12dp</dimen>
+    <dimen name="CardView_caffe_elevation">6dp</dimen>
+    <dimen name="CardView_caffe_name_caffe_textSize">25sp</dimen>
+    <dimen name="image_menu_item_size_image">200dp</dimen>
+    <dimen name="CardView_menu_margin">8dp</dimen>
+    <dimen name="CardView_menu_elevation">8dp</dimen>
+    <dimen name="ItemMenu_padding">4dp</dimen>
+    <dimen name="ItemMenu_textSize">20sp</dimen>
 </resources>

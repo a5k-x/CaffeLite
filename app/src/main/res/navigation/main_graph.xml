@@ -3,17 +3,41 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/main_graph"
-    app:startDestination="@id/singInFragment">
+    app:startDestination="@id/pointsCaffeListFragment">
 
     <fragment
         android:id="@+id/singInFragment"
         android:name="com.a5k.caffelite.view.SingInFragment"
         android:label="fragment_sing_in"
-        tools:layout="@layout/fragment_sing_in" />
+        tools:layout="@layout/fragment_sing_in" >
+        <action
+            android:id="@+id/action_singInFragment_to_pointsCaffeListFragment"
+            app:destination="@id/pointsCaffeListFragment" />
+        <action
+            android:id="@+id/action_singInFragment_to_singOutFragment"
+            app:destination="@id/singOutFragment" />
+    </fragment>
     <fragment
         android:id="@+id/singOutFragment"
         android:name="com.a5k.caffelite.view.SingOutFragment"
         android:label="fragment_sing_out"
         tools:layout="@layout/fragment_sing_out" />
+    <fragment
+        android:id="@+id/pointsCaffeListFragment"
+        android:name="com.a5k.caffelite.view.PointsCaffeListFragment"
+        android:label="fragment_points_caffe_list"
+        tools:layout="@layout/fragment_points_caffe_list" >
+        <action
+            android:id="@+id/action_pointsCaffeListFragment_to_menuFragment"
+            app:destination="@id/menuFragment" />
+        <action
+            android:id="@+id/action_pointsCaffeListFragment_to_singInFragment"
+            app:destination="@id/singInFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/menuFragment"
+        android:name="com.a5k.caffelite.view.MenuFragment"
+        android:label="fragment_menu"
+        tools:layout="@layout/fragment_menu" />
 
 </navigation>

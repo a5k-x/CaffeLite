@@ -52,4 +52,11 @@
 
     </style>
 
+    <style name="ItemMenu" parent="Theme.CaffeLite">
+        <item name="android:padding">@dimen/ItemMenu_padding</item>
+        <item name="android:textColor">@color/btn_text_color</item>
+        <item name="android:textSize">@dimen/ItemMenu_textSize</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
 </resources>

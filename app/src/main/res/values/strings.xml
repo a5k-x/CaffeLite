@@ -10,4 +10,8 @@
     <string name="text_to_registration">Регистрация</string>
     <string name="repeat_password_field">Повторите пароль</string>
     <string name="btn_text_reristration">РЕГИСТРАЦИЯ</string>
+    <string name="accounts_account_type">com.coffelite.acc</string>
+    <string name="name_label">Coffe Lite</string>
+    <string name="item_menu_plus_count_text">+</string>
+    <string name="item_menu_minus_count_text">-</string>
 </resources>

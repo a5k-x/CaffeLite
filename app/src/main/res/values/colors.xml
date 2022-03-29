@@ -11,5 +11,6 @@
     <color name="btn_fields">#B6863E</color>
     <color name="btn_text_color">#ECAE52</color>
     <color name="btn">#32230C</color>
+    <color name="CardView_caffe_background">#E3D2B8</color>
 
 </resources>

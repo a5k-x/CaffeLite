@@ -62,7 +62,7 @@ class MainActivity : AppCompatActivity(), IMainNavigation {
 
     }
 
-    //Пернуть логин последнего авторизованного пользователя
+    //Вернуть логин последнего авторизованного пользователя
     override fun getLastAuthLogin(): String {
         val sh = getSharedPreferences(APP_PREFERENCES, MODE_PRIVATE)
         return sh.getString(KEY_NAME, null).toString()

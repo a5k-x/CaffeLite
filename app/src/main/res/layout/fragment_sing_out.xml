@@ -12,7 +12,7 @@
     android:layout_gravity="center"
     android:orientation="vertical"
     android:nestedScrollingEnabled="true"
-    tools:context=".view.SingInFragment">
+    tools:context=".ui.AuthFragment">
 
 
       <TextView
@@ -87,7 +87,7 @@
         style="@style/BtnSingInSingOut"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="@string/btn_text_reristration" />
+        android:text="@string/btn_text_registration" />
 
 
 

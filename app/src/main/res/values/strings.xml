@@ -1,15 +1,22 @@
 <resources>
     <string name="app_name">CaffeLite</string>
-   <string name="e_mail_text">e-mail</string>
+    <string name="e_mail_text">e-mail</string>
     <string name="example_email_hint_text">example@example.ru</string>
     <string name="password_field">Пароль</string>
     <string name="hint_password">******</string>
     <string name="sing_in_text_btn">ВОЙТИ</string>
     <string name="text_to_registration">Регистрация</string>
     <string name="repeat_password_field">Повторите пароль</string>
-    <string name="btn_text_reristration">РЕГИСТРАЦИЯ</string>
+    <string name="btn_text_registration">РЕГИСТРАЦИЯ</string>
     <string name="accounts_account_type">com.coffelite.acc</string>
     <string name="name_label">Coffe Lite</string>
     <string name="item_menu_plus_count_text">+</string>
     <string name="item_menu_minus_count_text">-</string>
+
+    <string name="ERROR_AUTH">Пользователь не найден</string>
+    <string name="ERROR_REGISTRATION">Ошибка регистрации</string>
+    <string name="SUCCESS_REGISTRATION">Пользователь был успешно зарегистрирован</string>
+    <string name="NAME_TITLE">Регистрация</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
 </resources>

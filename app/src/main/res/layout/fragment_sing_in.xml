@@ -12,7 +12,7 @@
     android:layout_height="wrap_content"
     android:layout_gravity="center"
     android:orientation="vertical"
-    tools:context=".view.SingInFragment">
+    tools:context=".ui.AuthFragment">
 
    <TextView
         style="@style/TextField"
